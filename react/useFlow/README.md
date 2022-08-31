@@ -82,6 +82,7 @@ const Counter = () => {
 ### 2. As a standalone custom hook
 
 This method is a bit more complex, but has the advantage of segregating the business logic to a separate file.
+The basic idea is to attach a component-specific custom hook that implements all the business logic for the given component - in this case, a simple counter.
 
 ```javascript
   // counter/useCounter.js
@@ -97,6 +98,8 @@ This method is a bit more complex, but has the advantage of segregating the busi
 
     return [state, actions, context]
   }
+
+  // In useFlow, your "actions" object is a higher order function that passes in all the contextual data you need.
   const counterActions = ({ get, set, context }) => ({
     increment: (amount = 1) => {
       const { count } = get()
@@ -120,6 +123,7 @@ This method is a bit more complex, but has the advantage of segregating the busi
 // counter/index.jsx
 import React from "react";
 
+// Notice how there is no logic here - just UI and event handling
 const Counter = () => {
   const [state, actions] = useCounter();
 
