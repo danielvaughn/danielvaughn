@@ -8,11 +8,15 @@ A super flexible wrapper around `useState`, built for maximum ergonomics.
 
 ## Example
 
-While `useFlow` offers a wide variety of implementation strategies, below is the package in its simplest form:
+While `useFlow` offers a wide variety of implementation strategies, below is the package in its simplest form.
+At first glance, it might not seem special, but 2 things make this unique:
+
+1. You don't need to worry about ensuring your state object is a new instance. `useFlow` uses `immer` under the hood to handle all of that for you.
+2. You don't even need to specify the entire object - only the portion of the state that you wish to update. `useFlow` performs a merge under the hood.
 
 ```javascript
 const SimpleDemo = () => {
-  const [state, actions] = useFlow({
+  const [state, setState] = useFlow({
     firstName: "",
     lastName: "",
   });
@@ -24,12 +28,12 @@ const SimpleDemo = () => {
       <input
         type="text"
         value={state.firstName}
-        onChange={(e) => actions.set({ firstName: e.target.value })}
+        onChange={(e) => setState({ firstName: e.target.value })}
       />
       <input
         type="text"
         value={state.lastName}
-        onChange={(e) => actions.set({ lastName: e.target.value })}
+        onChange={(e) => setState({ lastName: e.target.value })}
       />
     </form>
   );
