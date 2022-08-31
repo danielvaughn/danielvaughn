@@ -131,6 +131,26 @@ This method is a bit more complex, but has the advantage of segregating the busi
   }
 ```
 
+```javascript
+// counter/index.jsx
+import React from "react";
+
+const Counter = () => {
+  const [state, actions] = useCounter();
+
+  return (
+    <div>
+      <p>
+        The current count is {state.count}. Once you click the button ten times,
+        we'll navigate away from this page.
+      </p>
+      <button onClick={actions.increment}>Add</button>
+      <button onClick={actions.decrement}>Subtract</button>
+    </div>
+  );
+};
+```
+
 ### 3. As a HOC
 
 This method requires the most boilerplate, but is also the most decoupled.
@@ -166,7 +186,9 @@ const clientActions = ({ set }) => ({
     });
   },
 });
+```
 
+```javascript
 // sign-up-form/Interface.jsx
 import React, { useEffect } from "react";
 
