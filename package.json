@@ -1,6 +1,6 @@
 {
   "name": "danielvaughn",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A personal repository of various things I've picked up over the years.",
   "main": "index.js",
   "exports": {
