@@ -21,19 +21,17 @@ const SimpleDemo = () => {
     lastName: "",
   });
 
-  // You are automatically given a "set" method for updating your state,
-  // but you can define as many custom actions as you need
   return (
     <form>
       <input
         type="text"
         value={state.firstName}
-        onChange={(e) => setState({ firstName: e.target.value })}
+        onChange={(e) => setState({ firstName: e.target.value })} // will not overwrite "lastName"
       />
       <input
         type="text"
         value={state.lastName}
-        onChange={(e) => setState({ lastName: e.target.value })}
+        onChange={(e) => setState({ lastName: e.target.value })} // will not overwrite "firstName"
       />
     </form>
   );
