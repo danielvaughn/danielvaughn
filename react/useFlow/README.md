@@ -63,7 +63,7 @@ This method is the simplest, but also couples the business logic to the componen
 
 ```javascript
 import React from "react";
-import { useFlow } from "danielvaughn/react/useFlow";
+import { useFlow } from "danielvaughn/useFlow";
 
 const [state, setState] = useFlow({ count: 0 });
 
@@ -91,7 +91,7 @@ The basic idea is to attach a component-specific custom hook that implements all
 ```javascript
   // counter/useCounter.js
   import { useEffect } from 'react'
-  import { useFlow } from 'danielvaughn/react/useFlow'
+  import { useFlow } from 'danielvaughn/useFlow'
   import { useHistory } from 'react-router-dom'
 
   const useCounter = () => {
@@ -153,7 +153,7 @@ Even complex, page-level components can easily be dropped into Storybook, or uni
 ```javascript
 // sign-up-form/Client.jsx
 import React, { useEffect } from "react";
-import { useFlow } from "use-rail";
+import { useFlow } from "danielvaughn/useFlow";
 import Interface from "./Interface.jsx";
 
 const Client = () => {
