@@ -183,6 +183,7 @@ const clientActions = ({ set }) => ({
 // sign-up-form/Interface.jsx
 import React, { useEffect } from "react";
 
+// Notice how this component has no hooks, no logic, no external dependencies, just props.
 const Interface = ({ firstName, lastName, age, canVote, set, setAge }) => {
   return (
     <form>
