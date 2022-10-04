@@ -12,7 +12,7 @@ While `useFlow` offers a wide variety of implementation strategies, below is the
 At first glance, it might not seem special, but 2 things make this unique:
 
 1. You don't need to worry about ensuring your state object is a new instance. `useFlow` uses `immer` under the hood to handle all of that for you.
-2. You don't even need to specify the entire object - only the portion of the state that you wish to update. `useFlow` performs a merge under the hood.
+2. You don't even need to specify the entire object - only the portion of the state that you wish to update. `useFlow` performs a merge for you.
 
 ```javascript
 const SimpleDemo = () => {
@@ -63,9 +63,9 @@ This method is the simplest, but also couples the business logic to the componen
 import React from "react";
 import { useFlow } from "danielvaughn/useFlow";
 
-const [state, setState] = useFlow({ count: 0 });
-
 const Counter = () => {
+  const [state, setState] = useFlow({ count: 0 });
+
   return (
     <div>
       <p>The count is {state.count}</p>
