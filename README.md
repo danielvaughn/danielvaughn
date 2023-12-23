@@ -7,7 +7,7 @@
 [![Gmail Badge](https://img.shields.io/badge/-danielbvaughn-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:danielbvaughn@gmail.com)](mailto:danielbvaughn@gmail.com)
 
 Welcome to my Github page!
-I'm a frontend engineer who's been building front-ends since 2009.
+I'm a web engineer who's been building front-ends since 2009.
 Most of my work is either closed source or behind paywalls, but here is where I tinker on side projects in my spare time.
 
 Currently, I'm building a programming language called [Matry](https://github.com/matry).
