@@ -1,18 +1,18 @@
 
-# Hi there, my name is Daniel 👋
+# Hi there 👋, I'm Daniel
 
 [![Linkedin Badge](https://img.shields.io/badge/-vaughndaniel-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vaughndaniel/)](https://www.linkedin.com/in/vaughndaniel/)
 [![Website Badge](https://img.shields.io/badge/-danielvaughn.dev-47CCCC?style=flat&logo=Google-Chrome&logoColor=white&link=https://danielvaughn.dev)](https://danielvaughn.dev)
 [![Twitter Badge](https://img.shields.io/badge/-@danielvaughn-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/danielvaughn)](https://twitter.com/danielvaughn)
 [![Gmail Badge](https://img.shields.io/badge/-danielbvaughn-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:danielbvaughn@gmail.com)](mailto:danielbvaughn@gmail.com)
 
-Welcome to my Github page!
+Welcome to my Github!
 I'm a web engineer who's been building front-ends since 2009.
 Most of my work is either closed source or behind paywalls, but here is where I tinker on side projects in my spare time.
 
 Currently, I'm building a programming language called [Matry](https://github.com/matry).
-It's been a passion project of mine for several years now.
-Reach out if you're interested in getting involved.
+In the same way that Terraform codified infrastructure with IaC, I'm attempting to do the same with design decisions at scale.
+It's been a passion project of mine for several years now - reach out if you're interested in getting involved!
 
 <h2>Tools I've used 🚀</h2>
 <p align="left">
