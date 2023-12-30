@@ -10,7 +10,8 @@ Welcome to my Github!
 I'm a web engineer who's been building front-ends since 2009.
 Most of my work is either closed source or behind paywalls, but here is where I tinker on side projects in my spare time.
 
-Currently, I'm building a programming language called [Matry](https://github.com/matry).
+As a former artist, I'm passionate about bridging the gap between designers and developers.
+To that end, I'm building a DSL specifically for designers, called [Matry](https://github.com/matry).
 In the same way that Terraform codified infrastructure with IaC, I'm attempting to do the same with design decisions at scale.
 It's been a passion project of mine for several years now - reach out if you're interested in getting involved!
 
