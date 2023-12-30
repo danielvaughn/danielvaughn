@@ -13,7 +13,7 @@ Most of my work is either closed source or behind paywalls, but here is where I 
 As a former artist, I'm passionate about bridging the gap between designers and developers.
 To that end, I'm building a DSL specifically for designers, called [Matry](https://github.com/matry).
 In the same way that Terraform codified infrastructure with IaC, I'm attempting to do the same with design decisions at scale.
-It's been a passion project of mine for several years now - reach out if you're interested in getting involved!
+It's been my main side project for several years now - reach out if you're interested in getting involved!
 
 <h2>Tools I've used 🚀</h2>
 <p align="left">
