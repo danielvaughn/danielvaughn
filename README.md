@@ -21,8 +21,7 @@ The language itself is defined as a tree-sitter grammar - [repo here](https://gi
 It builds on many of the concepts I developed while I've worked on Matry.
 A cheeky way to think of it is "vim but for UI designers".
 
-Feel free to reach out if you're interested in getting involved in either of these projects;
-working on nights and weekends means slow progress on both of them.
+Feel free to reach out if you're interested in getting involved in either of these projects.
 
 <h2>Tools I've used 🚀</h2>
 <p align="left">
