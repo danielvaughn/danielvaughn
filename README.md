@@ -11,12 +11,18 @@ I'm a web engineer who's been building front-ends since 2009.
 Most of my work is either closed source or behind paywalls, but here is where I tinker on side projects in my spare time.
 
 As a former artist, I'm passionate about bridging the gap between designers and developers.
-To that end, I'm building a DSL specifically for designers, called [Matry](https://github.com/matry).
-In the same way that Terraform codified infrastructure with IaC, I'm attempting to do the same with design decisions at scale.
+To that end, I spend my nights and weekends on the two following projects:
 
+1. The first is called [Matry](https://github.com/matry). It's a programming language built specifically for UI designers.
+In the same way that Terraform codified infrastructure with IaC, Matry's goal is to do the same with design decisions at scale.
 The language itself is defined as a tree-sitter grammar - [repo here](https://github.com/matry/tree-sitter-matry).
 
-Matry has been my main side project for several years now - reach out if you're interested in getting involved!
+2. The second project is tentatively called [Stride](https://github.com/danielvaughn/stride-editor), and it's a keyboard-driven tool for designing in the browser.
+It builds on many of the concepts I developed while I've worked on Matry.
+A cheeky way to think of it is "vim but for UI designers".
+
+Feel free to reach out if you're interested in getting involved in either of these projects;
+working on nights and weekends means slow progress on both of them.
 
 <h2>Tools I've used 🚀</h2>
 <p align="left">
