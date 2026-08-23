@@ -1,5 +1,5 @@
 
-# Hi there 👋, I'm Daniel
+# Hi 👋
 
 [![Linkedin Badge](https://img.shields.io/badge/-vaughndaniel-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vaughndaniel/)](https://www.linkedin.com/in/vaughndaniel/)
 [![Website Badge](https://img.shields.io/badge/-danielvaughn.dev-47CCCC?style=flat&logo=Google-Chrome&logoColor=white&link=https://danielvaughn.dev)](https://danielvaughn.dev)
