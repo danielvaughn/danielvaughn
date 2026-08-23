@@ -7,7 +7,7 @@
 [![Gmail Badge](https://img.shields.io/badge/-danielbvaughn-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:danielbvaughn@gmail.com)](mailto:danielbvaughn@gmail.com)
 
 Welcome to my Github!
-I'm a web engineer who's been building front-ends since 2009.
+I'm a design engineer who's been building software since 2009.
 Most of my work is either closed source or behind paywalls, but here is where I tinker on side projects in my spare time.
 
 As a former artist, I'm passionate about bridging the gap between designers and developers.
@@ -16,7 +16,7 @@ It's shaping up to be a suite of tools built around two projects:
 
 1. A [programming language](https://github.com/matry/tree-sitter-matry) built specifically for UI designers. In the same way that Terraform codified infrastructure with IaC, Matry's goal is to do the same with design decisions at scale. The language itself is defined as a tree-sitter grammar.
 
-2. A [keyboard-driven tool](https://github.com/matry/editor) for designing in the browser. A cheeky way to think of it is "vim but for UI designers".
+2. A [keyboard-driven tool](https://github.com/danielvaughn/stride) for designing in the browser. Basically Vim for design.
 
 Feel free to reach out if you're interested in getting involved in either of these projects.
 
