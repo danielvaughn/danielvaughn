@@ -6,7 +6,6 @@
 [![Twitter Badge](https://img.shields.io/badge/-@danielvaughn-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/danielvaughn)](https://twitter.com/danielvaughn)
 [![Gmail Badge](https://img.shields.io/badge/-danielbvaughn-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:danielbvaughn@gmail.com)](mailto:danielbvaughn@gmail.com)
 
-Welcome to my Github!
 I'm a design engineer who's been building software since 2009.
 Most of my work is either closed source or behind paywalls, but here is where I tinker on side projects in my spare time.
 
